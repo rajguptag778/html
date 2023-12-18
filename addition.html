@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        first name:<br>
+        <input type="text"id="firstname"value="2">
+        <br>
+        last name:<br>
+        <input type="text"id="lastname"value="3">
+        <br><br>
+        <input type="submit" onclick="myFunction(4,3)">
+        <p id="demo">df</p>
+        <script>
+            function myFunction(p1,p2){
+                //const num1 = parselnt(prompt("enter the first number"));
+                var num1=
+                parselnt(document.getElementById("firstname").value);
+                //const num2 = parselnt(prompt("enter the second number"));
+                var num2=
+                parselnt(document.getElementById("lastname").value);
+                const sum = num1 + num2;
+            document.getElementById("demo").innerHTML=SUM;
+            }
+            
+        </script>
+    </head>
+</html>
